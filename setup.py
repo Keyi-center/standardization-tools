@@ -19,6 +19,13 @@ setup(
     #     ('/usr/lib/systemd/system/', ['bin/*.service']),
     # ],
 
+    install_requires=['loguru>=0.6.0', 'lxml>=4.9.1'],
+
+    tests_require=[
+        'pytest>=3.3.1',
+        'pytest-cov>=2.5.1',
+    ],
+
     # 不打包某些文件
     exclude_package_data={
         'log': ['log.*', 'logfile.*'],
