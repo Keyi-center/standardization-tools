@@ -1,6 +1,6 @@
 import logging
 
-from logging_handler import InterceptHandler
+from .logging_handler import InterceptHandler
 
 
 class Logging2Loguru():
