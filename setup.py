@@ -21,8 +21,8 @@ setup(
 
     # 不打包某些文件
     exclude_package_data={
-        'log': 'log.*',
-        'test': 'test.*',
+        'log': ['log.*'],
+        'test': ['test.*'],
         'bandwidth_reporter': ['*.txt', '*.log']
     }
 )
