@@ -14,10 +14,10 @@ setup(
     packages=find_packages(),
 
     # 安装过程中，需要安装的静态文件，如配置文件、service文件、图片等
-    data_files=[
-        ('', ['conf/*.conf']),
-        ('/usr/lib/systemd/system/', ['bin/*.service']),
-    ],
+    # data_files=[
+    #     ('', ['conf/*.conf']),
+    #     ('/usr/lib/systemd/system/', ['bin/*.service']),
+    # ],
 
     # 不打包某些文件
     exclude_package_data={
