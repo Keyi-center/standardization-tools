@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="standardization-tools",
+    name="log-tools",
     version="1.0",
     author="liuzhen",
     author_email="liuzhen@zhejianglab.com",
@@ -21,7 +21,7 @@ setup(
 
     # 不打包某些文件
     exclude_package_data={
-        'log': ['log.*'],
+        'log': ['log.*', 'logfile.*'],
         'test': ['test.*'],
         'bandwidth_reporter': ['*.txt', '*.log']
     }
