@@ -35,7 +35,7 @@ my_log = Logging2Loguru().get_logger() #方式一，默认方式
 my_log = Logging2Loguru().get_logger('flask_project') #方式二
 my_log = Logging2Loguru(r'D:\PythonProjects\standardization-tools\test\log-tests\log.xml').get_logger('flask_project') #方式三
 ```
-类Logging2Loguru初始化时可以加上日志xml配置的路径，get_logger初始化时可以加上日志的名字。日志xml配置建议放置在根目录下()，如果不加则使用日志默认的配置，日志文件默认保存在项目根目录下的log文件夹中，log文件夹分为Default和Error两个文件，Default保存的时默认日志级别及以上的日志，Error文件夹保存的是error级别的日志。
+类Logging2Loguru初始化时可以加上日志xml配置的路径，get_logger初始化时可以加上日志的名字。日志xml配置建议放置在根目录下，如log.xml(xml配置示例见下文)，如果不加则使用日志默认的配置，日志文件默认保存在项目根目录下的log文件夹中，log文件夹分为Default和Error两个文件，Default保存的时默认日志级别及以上的日志，Error文件夹保存的是error级别的日志。
 该日志类可以全局初始化一次，后续直接用即可，建议在全局配置文件config.py中进行初始化。
 4) 使用
 ```python
