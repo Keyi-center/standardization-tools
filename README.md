@@ -21,7 +21,7 @@ log-tools
 ### 接入方式
 1）通过下述命令下载该工具包
 ```shell
-python -m pip install git+http://gitlab.sci-art.zhejianglab.com/sci_art_common/standardization-tools.git@baseline-1.0#egg=log_toolsv
+python -m pip install git+http://gitlab.sci-art.zhejianglab.com/sci_art_common/standardization-tools.git@baseline-1.0#egg=log_tools
 ```
 2) 导入该工具包
 ```python
