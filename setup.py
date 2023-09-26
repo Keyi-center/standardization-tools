@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="standardization-tools",
+    name="standardization_tools",
     version="1.0",
     author="liuzhen",
     author_email="liuzhen@zhejianglab.com",
