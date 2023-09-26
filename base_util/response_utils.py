@@ -1,5 +1,5 @@
 from flask import jsonify
-from util.filter_null_params import filter_null_values
+from base_util.filter_null_params import filter_null_values
 
 @filter_null_values
 def response(code, message, data=None):
