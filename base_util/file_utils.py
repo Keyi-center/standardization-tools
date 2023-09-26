@@ -13,11 +13,11 @@ def update_file(path, content):
         f.write(content)
 
 
-def read_file(path):
+def read_file(path,encoding='utf-8'):
     """
     @Param path: absolute path of file that been read
     """
-    with open(path, 'r') as f:
+    with open(path, 'r',encoding=encoding) as f:
         return f.read()
 
 
