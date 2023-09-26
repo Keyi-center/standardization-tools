@@ -1,5 +1,5 @@
 from flask import Flask,jsonify
-from base_util.response_utils import response,ok
+from base_util.response_util import response,ok
 from base_util.filter_null_params import filter_null_values
 
 app = Flask(__name__)
