@@ -1,4 +1,4 @@
-from logging2loguru import Logging2Loguru
+from .logging2loguru import Logging2Loguru
 
 log = Logging2Loguru().get_logger()
 log.info("this is a info message!")

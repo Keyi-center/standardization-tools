@@ -1,8 +1,8 @@
 import sys
 import logging
-from loguru_assembly import LoguruAssembly
-
 from loguru import logger
+
+from .loguru_assembly import LoguruAssembly
 
 
 class InterceptHandler(logging.Handler):
